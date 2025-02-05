@@ -24,23 +24,23 @@ import Ladingpage from "./Paginas/Lading-page/LadingPage";
 function App() {
     const router = createBrowserRouter([
         {
-            path: "/mfs",
+            path: "/",
             element: <Ladingpage />,
             },
         {
-            path: "/mfs/login",
+            path: "/login",
             element: <Login />,
         },
         {
-            path: "/mfs/registrar",
+            path: "/registrar",
             element: <Registrar />,
         },
         {
-            path: "/mfs/Modelosprocessuais",
+            path: "/Modelosprocessuais",
             element: <Modelosaberto />,
         },
         {
-            path: "/mfs/dashboard",
+            path: "/dashboard",
             element: <Layout />,
             children: [
                 {
