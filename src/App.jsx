@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import { ThemeProvider } from "@/contexts/theme-context";
 
@@ -22,7 +22,7 @@ import ThankYouPage from "./Paginas/ConvertorImage/Thanks";
 import Ladingpage from "./Paginas/Lading-page/LadingPage";
 
 function App() {
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: "/",
             element: <Ladingpage />,
