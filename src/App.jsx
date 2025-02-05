@@ -122,7 +122,7 @@ function App() {
     ]);
 
     return (
-        <ThemeProvider>
+        <ThemeProvider storageKey="theme">
             <RouterProvider router={router} />
         </ThemeProvider>
     );
