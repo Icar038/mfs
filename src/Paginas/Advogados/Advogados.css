@@ -1,0 +1,47 @@
+
+.advogados-container {
+    padding: 20px;
+}
+
+.add-advogado-button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-advogado-button:hover {
+    background-color: #0056b3;
+}
+
+.advogados-forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.advogado-form h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .advogado-form {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .advogado-form {
+        flex: 1 1 100%;
+    }
+}
