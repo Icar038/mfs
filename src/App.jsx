@@ -24,7 +24,7 @@ import Ladingpage from "./Paginas/Lading-page/LadingPage";
 function App() {
     const router = createBrowserRouter([
         {
-            path: "/",
+            path: "/mfs",
             element: <Ladingpage />,
             },
         {
